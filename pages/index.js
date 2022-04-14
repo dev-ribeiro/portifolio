@@ -1,11 +1,11 @@
+import style from "../styles/Home.module.css"
+import Header from "../components/Header"
+
 function Home(){
     return (
-        <div>
-            <h1>Home</h1>
-            <div>Teste</div>
-            <div>Novo teste</div>
+        <div className={style.home}>
+            <Header></Header>
         </div>
-        
     )
 };
 
