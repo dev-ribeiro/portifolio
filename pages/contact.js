@@ -1,5 +1,5 @@
 import style from "../styles/Contact/Contact.module.css";
-import Header from "../components/Header"
+import Header from "../components/Header/Header"
 
 function Contact(){
     return(

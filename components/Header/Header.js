@@ -1,10 +1,10 @@
 import Link from "next/link";
-import style from "../styles/Header/Header.module.css"
+import style from "../../styles/Header/Header.module.css"
 
 function Header(){
     return(
         <div className={style.container}>
-            <h1>Logo</h1>
+            <h1>David<br/>Ribeiro</h1>
             <nav className={style.navigation}>
                 <Link href='/'>
                     <a>Home</a>

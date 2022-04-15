@@ -1,0 +1,11 @@
+.about h2{
+    text-align: center;
+}
+
+.about p{
+    text-indent: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: justify
+}

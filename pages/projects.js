@@ -1,5 +1,5 @@
 import style from "../styles/Projects/Project.module.css";
-import Header from "../components/Header"
+import Header from "../components/Header/Header";
 
 function Project(){
     return(
