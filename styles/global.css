@@ -14,10 +14,5 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
-  /* background-color: gray; */
-  background-image: url('../public/images/background/back.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  aspect-ratio: 16/9;
+  background-color: gray;
 }
