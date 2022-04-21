@@ -1,22 +1,12 @@
-import Link from "next/link";
-import style from "../../styles/Header/Header.module.css"
+import style from "../../styles/Header.module.css";
+import Navigation from "./Navigation/Navigation";
 
 function Header(){
     return(
-        <div className={style.container}>
-            <h1>David<br/>Ribeiro</h1>
-            <nav className={style.navigation}>
-                <Link href='/'>
-                    <a>Home</a>
-                </Link>
-                <Link href='/projects'>
-                    <a>Projetos</a>
-                </Link>
-                <Link href='/contact'>
-                    <a>Contato</a>
-                </Link>
-            </nav>
-        </div>
+        <header className={style.container}>
+            <h2 className={style.logo}>David<br/> Ribeiro</h2>
+            <Navigation></Navigation>
+        </header>
     )
 }
 

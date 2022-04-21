@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Mono&family=Square+Peg&display=swap');
+
+/*
+  font-family: 'Cinzel', serif; Titles
+  font-family: 'Roboto Mono', monospace; Subtitles
+  font-family: 'Square Peg', cursive; Main
+*/
+
+body {
+  font-family: 'Square Peg', cursive;
+  font-size: 20px;
+  /* padding: 20px 20px 60px; */
+  /* max-width: 680px; */
+  max-width: 100vw;
+  margin: 0 auto;
+  background-color: gray;
+}

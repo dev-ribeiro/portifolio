@@ -1,15 +1,12 @@
-import Header from "../components/Header/Header";
-import Main from "../components/Home/Main";
-import style from "../styles/Home/Home.module.css";
+import Head from 'next/head';
+import Header from '../components/Header/Header';
 
-function Home(){
-
+function IndexPage() {
     return (
-        <div className={style.home}>
-            <Header></Header>
-            <Main></Main>
-        </div>
+       <div>
+           <Header></Header>
+       </div>
     )
 };
 
-export default Home
+export default IndexPage

@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(88, 85, 85);
+}
+
+.logo{
+    font-family: 'Cinzel', serif;
+    color: goldenrod;
+    text-align: center;
+}
+
+.navigation{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.navigation div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
