@@ -1,19 +1,25 @@
 import style from "../../../styles/Header.module.css";
-// import Image from "next/image";
-// import imgHome from "../../../public/images/icons/home.png";
-// import imgProject from "../../../public/images/icons/work.png";
-// import imgContact from "../../../public/images/icons/contact.png";
+
 
 function Navigation() {
     return (
         <nav className={style.navigation}>
             <div>
+                <span class="material-symbols-outlined">
+                    home
+                </span>
                 <a href="/">Home</a>
             </div>
             <div>
+                <span class="material-symbols-outlined">
+                    work_history
+                </span>
                 <a href="/projects">Projetos</a>
             </div>
             <div>
+                <span class="material-symbols-outlined">
+                    contact_page
+                </span>
                 <a href="/contact">Contato</a>
             </div>
         </nav>
