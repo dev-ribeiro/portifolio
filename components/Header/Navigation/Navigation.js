@@ -5,22 +5,22 @@ function Navigation() {
     return (
         <nav className={style.navigation}>
             <div>
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     home
                 </span>
                 <a href="/">Home</a>
             </div>
             <div>
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     work_history
                 </span>
                 <a href="/projects">Projetos</a>
             </div>
             <div>
-                <span class="material-symbols-outlined">
-                    contact_page
+                <span className="material-symbols-outlined">
+                    rss_feed
                 </span>
-                <a href="/contact">Contato</a>
+                <a href="/blog">Blog</a>
             </div>
         </nav>
     )
