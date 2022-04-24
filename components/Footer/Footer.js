@@ -1,21 +1,24 @@
-import Image from "next/image";
 import style from "../../styles/Footer.module.css";
-import githubLogo from "/images/github.png";
-import linkedinLogo from "/images/linkedin.png";
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <footer className={style.footer}>
-            <Image
-                src={githubLogo}
-                width={100}
-                height={100}
-            ></Image>
-            <Image
-                src={linkedinLogo}
-                width={100}
-                height={100}
-            ></Image>
+            <div className={style.links}>
+                <h3>Contatos:</h3>
+                <div>
+                    <img
+                        src="https://cdn-icons-png.flaticon.com/512/270/270798.png"
+                    ></img>
+                    <h4><a href="https://github.com/dev-ribeiro">GitHub</a></h4>
+                </div>
+                <div>
+                    <img
+                        src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
+                    ></img>
+                    <h4><a href="https://www.linkedin.com/in/david-ribeiro-21297322b/">LinkedIn</a></h4>
+                </div>
+
+            </div>
         </footer>
     )
 }
