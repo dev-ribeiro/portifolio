@@ -1,7 +1,7 @@
 import Image from "next/image";
 import style from "../../styles/Footer.module.css";
-import githubLogo from "../../public/images/github.png";
-import linkedinLogo from "../../public/images/linkedin.png";
+import githubLogo from "/images/github.png";
+import linkedinLogo from "/images/linkedin.png";
 
 function Footer(){
     return(
