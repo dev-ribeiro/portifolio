@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Mono&family=Square+Peg&display=swap');
 
 /*
+Photo by <a href="https://unsplash.com/@devintavery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Devin Avery</a> on <a href="https://unsplash.com/s/photos/city?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+*/
+
+/*
   font-family: 'Cinzel', serif; Titles
   font-family: 'Roboto Mono', monospace; Subtitles
   font-family: 'Square Peg', cursive; Main
@@ -15,4 +19,8 @@ body {
   height: 100vh;
   margin: 0 auto;
   background-color: gray;
+  aspect-ratio: 16 / 9;
+  background-image: url('../public/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
