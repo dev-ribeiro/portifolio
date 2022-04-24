@@ -1,0 +1,27 @@
+.container{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    width: 50%;
+    position: relative;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.container h2{
+    color: goldenrod;
+}
+
+.button{
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 11%;
+    background-color: black;
+    color: gold;
+    font-family: 'Cinzel', serif;
+}

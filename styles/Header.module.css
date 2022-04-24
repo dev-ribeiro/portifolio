@@ -12,18 +12,20 @@
     font-family: 'Cinzel', serif;
     color: goldenrod;
     text-align: center;
+    font-size: 2rem;
 }
 
 .navigation{
-    display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     color: gold;
 }
 
 .navigation a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     color: white;
 }
 

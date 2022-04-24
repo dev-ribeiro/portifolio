@@ -1,15 +1,15 @@
 import Header from '../components/Header/Header';
-import History from '../components/Main/History/History';
-import Techs from '../components/Main/Techs/Techs';
+import Apresentation from '../components/Main/Apresentation/Apresentation';
+import Footer from '../components/Footer/Footer';
 
 function IndexPage() {
     return (
         <div>
             <Header></Header>
-            <main>
-                {/* <History></History> */}
-                <Techs></Techs>
+            <main className='mainPageIndex'>
+                <Apresentation></Apresentation>
             </main>
+            <Footer></Footer>
         </div>
     )
 };
