@@ -18,7 +18,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
-  background-color: gray;
+  /* background-color: gray; */
   aspect-ratio: 16 / 9;
   background-image: url('../public/images/background.jpg');
   background-repeat: no-repeat;
