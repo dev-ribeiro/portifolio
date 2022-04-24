@@ -1,0 +1,15 @@
+.container{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    width: 50%;
+    position: relative;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.container h2{
+    color: goldenrod;
+}

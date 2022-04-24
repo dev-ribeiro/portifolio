@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Mono&family=Square+Peg&display=swap');
 
 /*
-Photo by <a href="https://unsplash.com/@devintavery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Devin Avery</a> on <a href="https://unsplash.com/s/photos/city?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-*/
-
-/*
   font-family: 'Cinzel', serif; Titles
-  font-family: 'Roboto Mono', monospace; Subtitles
-  font-family: 'Square Peg', cursive; Main
+  font-family: 'Roboto Mono', monospace; Main
 */
 
 body {
-  font-family: 'Square Peg', cursive;
-  font-size: 20px;
-  /* padding: 20px 20px 60px; */
-  /* max-width: 680px; */
+  font-family: 'Roboto Mono', monospace;
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
   aspect-ratio: 16 / 9;
-  background-image: url('https://images.unsplash.com/photo-1517511620798-cec17d428bc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-image: url('https://images.unsplash.com/photo-1649527267376-688264efcccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80');
+  /*https://unsplash.com/photos/ydXSc05t0uE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink*/
   background-repeat: no-repeat;
   background-size: cover;
+  background-clip: border-box;
+}
+
+.mainPageIndex{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
