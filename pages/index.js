@@ -1,17 +1,15 @@
 import Header from '../components/Header/Header';
-import Apresentation from '../components/Main/Apresentation/Apresentation';
+import IndexPage from '../components/Main/IndexPage/IndexPage';
 import Footer from '../components/Footer/Footer';
 
-function IndexPage() {
+function Index() {
     return (
         <div>
             <Header></Header>
-            <main className='mainPageIndex'>
-                <Apresentation></Apresentation>
-            </main>
+            <IndexPage></IndexPage>
             <Footer></Footer>
         </div>
     )
 };
 
-export default IndexPage
+export default Index

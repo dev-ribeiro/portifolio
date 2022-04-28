@@ -1,4 +1,11 @@
 .container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Page apresentation*/
+.apresentation{
     margin-top: 20px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
@@ -10,7 +17,7 @@
     text-align: justify;
 }
 
-.container h2{
+.apresentation h2{
     color: goldenrod;
 }
 

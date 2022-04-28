@@ -33,12 +33,6 @@
     padding: 0;
 }
 
-.links img{
-    width: 20px;
-    height: 20px;
-    align-self: flex-end;
-}
-
 .links div{
     display: flex;
     align-items: center;
