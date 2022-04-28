@@ -1,7 +1,7 @@
 import Image from "next/image";
 import style from "../../styles/Footer.module.css";
-// import github from "../../public/images/github.png";
-// import linkedin from "../../public/images/linkedin.png";
+// import github from "../../public/images/github.jpg";
+// import linkedin from "../../public/images/linkedin.jpg";
 
 function Footer() {
     return (
@@ -10,7 +10,7 @@ function Footer() {
                 <h3>Contatos:</h3>
                 <div>
                     <Image
-                        src="/images/github.png"
+                        src="/images/github.jpg"
                         width={20}
                         height={20}
                     />
@@ -18,7 +18,7 @@ function Footer() {
                 </div>
                 <div>
                     <Image
-                        src="/images/linkedin.png"
+                        src="/images/linkedin.jpg"
                         width={20}
                         height={20}
                     />
