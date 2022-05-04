@@ -6,12 +6,11 @@
 */
 
 body {
-  font-family: 'Roboto Mono', monospace;
-  width: 100vw;
-  height: 100vh;
-  margin: 0 auto;
-  aspect-ratio: 16 / 9;
-  background-image: url('/assets/background.jpg');
+  font-family: 'Roboto Mono', monospace;  
+  margin: 0;
+  /* aspect-ratio: 16 / 9; */
+  background-image: url('/assets/background.png');
   background-repeat: no-repeat;
   background-size: cover;
+  /* filter: brightness(10%); */
 }
