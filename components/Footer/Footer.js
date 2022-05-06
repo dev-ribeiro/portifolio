@@ -16,7 +16,7 @@ function Footer() {
                 </div>
 
             </div> */}
-
+            <h3>Main stacks:</h3>
             <div className={style.icons}>
                 <a href="https://www.flaticon.com/free-icons/html" title="html icons">
                     <img src="/assets/html.png"></img>
@@ -34,6 +34,7 @@ function Footer() {
                     <img src="/assets/react.png"></img>
                 </a>
             </div>
+            <hr></hr>
 
         </footer>
     )

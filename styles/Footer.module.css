@@ -1,4 +1,5 @@
 .footer{
+    margin-top: 30px;
     width: 100%;
     /* min-height: 100px; */
     /* position: absolute;
@@ -14,6 +15,14 @@
 .footer img{
     width: 50px;
     height: 50px;
+}
+
+.footer h3{
+    color: goldenrod;
+}
+
+.footer hr{
+    width: 10%;
 }
 
 /* .links{
