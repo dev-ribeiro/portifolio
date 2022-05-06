@@ -1,19 +1,22 @@
 .container{
     width: 100%;
+    /* min-height: 600px; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /*Page apresentation*/
 .apresentation{
     margin-top: 20px;
-    width: 100%;
     background-color: rgba(0, 0, 0, 0);
     color: white;
     font-family: 'Roboto Mono', monospace;
-    width: 50%;
+    font-size: 19px;
+    width: 35%;
+    /* height: 80%; */
     position: relative;
-    margin-right: 30px;
+    margin-left: 30px;
     text-align: justify;
 }
 
