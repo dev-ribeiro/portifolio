@@ -32,6 +32,10 @@
     border: 1px solid goldenrod;
     border-radius: 11%;
     background-color: black;
+}
+
+.button a{
+    text-decoration: none;
     color: gold;
     font-family: 'Cinzel', serif;
 }
