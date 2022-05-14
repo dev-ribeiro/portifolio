@@ -8,6 +8,8 @@ class MyDocument extends Document {
         <Head></Head>
         <body>
           <Main />
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2803687290017977"
+            crossOrigin="anonymous"></script>
           <NextScript />
         </body>
       </Html>
