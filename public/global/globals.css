@@ -1,0 +1,14 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body{
+    background-color: aliceblue;
+    background-size: contain;
+}
