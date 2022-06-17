@@ -1,13 +1,7 @@
-import Header from '../components/Header/Header';
-import IndexPage from '../components/Main/IndexPage/IndexPage';
-import Footer from '../components/Footer/Footer';
-
-function Index() {
+export default function Home() {
     return (
-        <div>
-            Hello
-        </div>
+        <>
+            Hello world
+        </>
     )
 };
-
-export default Index
