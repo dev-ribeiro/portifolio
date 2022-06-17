@@ -5,9 +5,7 @@ import Footer from '../components/Footer/Footer';
 function Index() {
     return (
         <div>
-            <Header></Header>
-            <IndexPage></IndexPage>
-            <Footer></Footer>
+            Hello
         </div>
     )
 };
