@@ -1,14 +1,9 @@
 *{
-    margin: 0 auto;
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
 }
 
-html{
-    box-sizing: border-box;
-    width: 100%;
-}
-
 body{
-    background-color: aliceblue;
-    background-size: contain;
+    background-color: antiquewhite;
 }
