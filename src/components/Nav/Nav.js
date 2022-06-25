@@ -1,3 +1,4 @@
+import style from "./Nav.module.css";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -9,11 +10,11 @@ export default function Nav(props) {
         <nav
             onClick={() => { setShow(true) }}
             onMouseLeave={() => { setShow(false) }}
-            className={show == false ? "navigation initialNav" : "navigation showNav"}
+            className={show == false ? `${style.navigation} ${style.initialNav}` : `${style.navigation} ${style.showNav}`}
         >
-            <Link href="/"><a className="linkName">Home</a></Link>
-            <Link href="/projects"><a className="linkName">Projetos</a></Link>
-            <Link href="/about"><a className="linkName">Sobre</a></Link>
+            <Link href="/"><a className={style.linkName}>Home</a></Link>
+            <Link href="/projects"><a className={style.linkName}>Projetos</a></Link>
+            <Link href="/about"><a className={style.linkName}>Sobre</a></Link>
         </nav>
     )
 }
