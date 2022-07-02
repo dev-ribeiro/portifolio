@@ -9,16 +9,18 @@
     margin: auto;
     margin-top: 2%;
     margin-bottom: 2%;
-    font-family: 'Roboto Mono', monospace;
     display: flex;
     justify-content: flex-end;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .homeContent{
+    padding: 2.5%;
     width: 50%;
     background-color: black;
     color: white;
-    padding: 1%;
+    border-radius: 20px;
+
 }
 
 .apresentation{
