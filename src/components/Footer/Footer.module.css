@@ -8,8 +8,8 @@
     width: 100%;
     box-sizing: border-box;
     padding: 1%;
-    /* position: absolute;
-    bottom: 0; */
+    position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: flex-end;
     background-color: black;
