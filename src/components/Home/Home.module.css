@@ -23,6 +23,14 @@
 
 }
 
+.homeContent h2{
+    font-size: 35px;
+}
+
+.homeContent p{
+    font-size: 20px;
+}
+
 .apresentation{
     text-align: justify;
 }

@@ -14,6 +14,8 @@
     justify-content: space-around;
     border: 1px solid black;
     overflow: hidden;
+    background-image: linear-gradient(to right, #141e30, #243b55);
+    color: white;
 }
 
 .logo{

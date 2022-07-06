@@ -6,5 +6,5 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(255, 255, 243);
+    background-image: linear-gradient(to right, #a4c7de, #3E5151);
 }
