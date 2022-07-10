@@ -28,6 +28,11 @@
     color: brown;
 }
 
+.projects img{
+    margin: 10px;
+    width: 50px;
+}
+
 .projects p{
     text-align: justify;
 }
