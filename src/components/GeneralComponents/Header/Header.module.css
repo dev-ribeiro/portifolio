@@ -1,0 +1,11 @@
+.header{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    font-family: 'Permanent Marker', cursive;
+    font-size: x-large;
+}
