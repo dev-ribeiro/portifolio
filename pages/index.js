@@ -1,15 +1,11 @@
 import Header from "../src/components/GeneralComponents/Header/Header";
-import Menu from "../src/components/GeneralComponents/Menu/Menu";
-import ApresentationInitial from "../src/components/HomeScreen/ApresentationInitial/ApresentationInitial";
+import MainContent from "../src/components/HomeScreen/MainContent/MainContent";
 
 export default function HomePage() {
     return (
         <>
             <Header/>
-            <main>
-                <Menu/>
-                <ApresentationInitial/>
-            </main>
+            <MainContent/>
         </>
     )
 };
