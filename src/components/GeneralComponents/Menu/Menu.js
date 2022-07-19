@@ -5,20 +5,20 @@ export default function Menu() {
 
     const [show, setShow] = useState(false);
 
-    let menuImage;
-    if (show == true) {
-        menuImage = <img src="/assets/icons/home/menu_open.png"></img>
-    } else {
-        menuImage = <img src="/assets/icons/home/menu_initial.png"></img>
-    }
-
     return (
         <aside
             className={show == true ? `${style.menu} ${style.selected}` : `${style.menu}`}
             onClick={() => setShow(true)}
             onMouseLeave={() => setShow(false)}
         >
-            {menuImage}
+            <img src="/assets/icons/home/menu_open.png" />
+            <div className={style.handleShowMenu}>
+                <div className={style.contact}>
+                    <h3>Contato:</h3>
+                    <a href="/" target="blank"><img src="/assets/icons/contact/github.png"></img></a>
+                    <a href="/" target="blank"><img src="/assets/icons/contact/linkedin.png"></img></a>
+                </div>
+            </div>
         </aside>
     )
 
