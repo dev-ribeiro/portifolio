@@ -1,10 +1,9 @@
-import Menu from "../../GeneralComponents/Menu/Menu";
+import style from "./MainContent.module.css";
 import ApresentationInitial from "../ApresentationInitial/ApresentationInitial";
 
 export default function MainContent() {
     return (
-        <main>
-            <Menu/>
+        <main className={style.mainContent}>
             <ApresentationInitial/>
         </main>
     )

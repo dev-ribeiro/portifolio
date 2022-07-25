@@ -11,12 +11,18 @@ export default function Menu() {
             onClick={() => setShow(true)}
             onMouseLeave={() => setShow(false)}
         >
-            <img src="/assets/icons/home/menu_open.png" />
-            <div className={style.handleShowMenu}>
+            <img className={style.click_img} src="/assets/icons/home/menu_open.png" />
+            <div className={style.handle_show_menu}>
                 <div className={style.contact}>
                     <h3>Contato:</h3>
-                    <a href="/" target="blank"><img src="/assets/icons/contact/github.png"></img></a>
-                    <a href="/" target="blank"><img src="/assets/icons/contact/linkedin.png"></img></a>
+                    <div>
+                        <img src="/assets/icons/contact/github.png"></img>
+                        <a href="/" target="blank">GitHub</a>
+                    </div>
+                    <div>
+                        <img src="/assets/icons/contact/linkedin.png"></img>
+                        <a href="/" target="blank">LinkedIn</a>
+                    </div>
                 </div>
             </div>
         </aside>

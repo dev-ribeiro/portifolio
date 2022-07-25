@@ -5,9 +5,9 @@ import MainContent from "../src/components/HomeScreen/MainContent/MainContent";
 export default function HomePage() {
     return (
         <>
-            <Menu/>
-            <Header/>
-            <MainContent/>
+            <Menu />
+            <Header />
+            <MainContent />
         </>
     )
 };

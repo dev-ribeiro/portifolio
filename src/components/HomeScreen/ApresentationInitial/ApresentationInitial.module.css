@@ -1,0 +1,30 @@
+.apresentation {
+    padding: 25px;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.history {
+    width: 50%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.history h2 {
+    align-self: flex-start;
+    margin-bottom: 15px;
+    font-size: 2.2em;
+    color: gold;
+}
+
+.history p {
+    text-align: justify;
+    font-size: 1.2em;
+}

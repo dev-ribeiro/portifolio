@@ -6,21 +6,28 @@
     padding: 5px;
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
     transition: 500ms;
     transition-timing-function: ease-in-out;
 }
 
-.selected{
-    width: 50%;
-    background-color: antiquewhite;
+.click_img{
+    padding: 5px;
+    width: 3.5rem;
+    background-color: goldenrod;
+    border-radius: 50%;
 }
 
-.handleShowMenu{
+.selected{
+    width: 50%;
+    background-color: rgb(255, 217, 167);
+}
+
+.handle_show_menu{
     padding: 20px;
     width: 90%;
     height: 100%;
@@ -35,6 +42,17 @@
     gap: 15px;
 }
 
+.contact div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+
 .contact img{
-    width: 1.5rem;
+    width: 2rem;
 }
