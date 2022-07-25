@@ -17,11 +17,11 @@ export default function Menu() {
                     <h3>Contato:</h3>
                     <div>
                         <img src="/assets/icons/contact/github.png"></img>
-                        <a href="/" target="blank">GitHub</a>
+                        <a href="https://github.com/dev-ribeiro" target="blank">GitHub</a>
                     </div>
                     <div>
                         <img src="/assets/icons/contact/linkedin.png"></img>
-                        <a href="/" target="blank">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/david-ribeiro-21297322b/" target="blank">LinkedIn</a>
                     </div>
                 </div>
             </div>
