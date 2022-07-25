@@ -21,7 +21,7 @@ export default function Menu() {
                     </div>
                     <div>
                         <img src="/assets/icons/contact/linkedin.png"></img>
-                        <a href="https://www.linkedin.com/in/david-ribeiro-21297322b/" target="blank">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/david-ribeiro-21297322b" target="blank">LinkedIn</a>
                     </div>
                 </div>
             </div>
